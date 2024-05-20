@@ -88,12 +88,12 @@ function footballPoints(win,drawn,lost){
 console.log(footballPoints(5,0,2));
 
 //even numbers
-// function isEven(number) {
-//     return number % 2 === 0;
-// }
+function isEven(number) {
+    return number % 2 === 0;
+}
 
-// for (let i = 0; i <= 101; i++) {
-//     if (isEven(i)) {
-//         console.log(i);
-//     }
-// }
+for (let i = 0; i <= 101; i++) {
+    if (isEven(i)) {
+        console.log(i);
+    }
+}
