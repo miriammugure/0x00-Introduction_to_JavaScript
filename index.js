@@ -65,18 +65,18 @@ function convertToSeconds(m){
 console.log(convertToSeconds(1/60));
 
 //greater among three
-// function greater(a,b,c){
-//    if(a>b && a>c){
-//     return a;
-//    }else if(b>c && b>a){
-//     return b;
-//    }else if(c===a && c===b && b===a){
-//     return a||b||c;
-//    }else{
-//     return c;
-//    }
-// }
-// console.log(greater(3,13,43));
+function greater(a,b,c){
+   if(a>b && a>c){
+    return a;
+   }else if(b>c && b>a){
+    return b;
+   }else if(c===a && c===b && b===a){
+    return a||b||c;
+   }else{
+    return c;
+   }
+}
+console.log(greater(3,13,43));
 
 //football points
 function footballPoints(win,drawn,lost){
