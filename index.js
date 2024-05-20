@@ -44,12 +44,12 @@ function isSumMoreThan100(a,b){
 console.log(isSumMoreThan100(200,3));
 
 //basket ball points
-// function basketBallPoints(a,b){
-//     a= a*2;
-//     b= b*3;
-//     return a+b
-// }
-// console.log(basketBallPoints(1,1));
+function basketBallPoints(a,b){
+    a= a*2;
+    b= b*3;
+    return a+b
+}
+console.log(basketBallPoints(1,1));
 
 //minutes to seconds
 function convertToSeconds(m){
